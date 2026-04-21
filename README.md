@@ -84,6 +84,19 @@ npm run build
 npm start
 ```
 
+### Refresh the competition scenario
+
+The one-click competition demo can be regenerated from public workforce-signal sources with:
+
+```bash
+npm run refresh:competition
+```
+
+This refreshes:
+
+- `data/competition_scenario.json`
+- `data/competition_market_trends.csv`
+
 ## Running the Streamlit prototype
 
 The Streamlit app is kept as an earlier standalone prototype of the same concept.

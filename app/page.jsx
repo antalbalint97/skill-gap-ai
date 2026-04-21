@@ -3,6 +3,7 @@
 import dynamic from "next/dynamic";
 import { useCallback, useEffect, useMemo, useState } from "react";
 
+import competitionScenarioSeed from "../data/competition_scenario.json";
 import employeesSeed from "../data/employees.json";
 import marketSeed from "../data/market_trends.json";
 import rolesSeed from "../data/roles.json";
@@ -28,6 +29,26 @@ const DEMO_EVIDENCE_NOTE = `AI Product Owner profiles are now expected to carry 
 
 PromptOps and governance-oriented roles increasingly require LLM evaluation, policy controls, and model monitoring. Internal mobility from workforce analytics into data science remains attractive when statistics, Python, and experiment design are already present.`;
 
+const DEFAULT_SCENARIO = {
+  id: "default",
+  name: "Bundled synthetic demo",
+  summary:
+    "Synthetic enterprise workforce with a lightweight analyst note for quick walkthroughs.",
+  analystNoteName: "Demo analyst note",
+  analystNote: DEMO_EVIDENCE_NOTE,
+  documents: [],
+  data: DEMO_DATA,
+};
+
+const COMPETITION_SCENARIO = {
+  ...competitionScenarioSeed,
+  data: {
+    employees: employeesSeed,
+    roles: rolesSeed,
+    market: competitionScenarioSeed.market,
+  },
+};
+
 const ARCHITECTURE_DESCRIPTION = `Data Layer
 - HR employee records, role templates, market trend signals, and uploaded evidence sources land as structured inputs.
 - Bundled synthetic data mirrors an enterprise workforce and can be replaced with uploaded CSVs.
@@ -47,9 +68,22 @@ Agent Reasoning Layer
 Recommendation Engine
 - Reskilling routes, hiring priorities, and risk skills are ranked with similarity, readiness, urgency, and supporting evidence.`;
 
-const INITIAL_DOCUMENTS = [
-  { name: "Demo analyst note", text: DEMO_EVIDENCE_NOTE, sourceType: "Analyst note" },
-];
+function buildScenarioDocuments(scenario) {
+  const documents = (scenario.documents || []).map((document) => ({ ...document }));
+
+  if (scenario.analystNote?.trim()) {
+    documents.unshift({
+      name: scenario.analystNoteName || "Analyst note",
+      text: scenario.analystNote,
+      sourceType: "Analyst note",
+      mimeType: "text/plain",
+    });
+  }
+
+  return documents;
+}
+
+const INITIAL_DOCUMENTS = buildScenarioDocuments(DEFAULT_SCENARIO);
 
 function MetricCard({ label, value, note }) {
   return (
@@ -154,24 +188,29 @@ function TraceCard({ label, item }) {
 
 export default function Home() {
   const [sourceMode, setSourceMode] = useState("synthetic");
+  const [selectedScenario, setSelectedScenario] = useState(DEFAULT_SCENARIO.id);
   const [uploadedData, setUploadedData] = useState({
     employees: null,
     roles: null,
     market: null,
   });
   const [uploadError, setUploadError] = useState("");
-  const [documentText, setDocumentText] = useState(DEMO_EVIDENCE_NOTE);
-  const [uploadedDocuments, setUploadedDocuments] = useState([]);
+  const [documentText, setDocumentText] = useState(DEFAULT_SCENARIO.analystNote);
+  const [uploadedDocuments, setUploadedDocuments] = useState(DEFAULT_SCENARIO.documents);
   const [analysisResult, setAnalysisResult] = useState(() =>
     buildAnalysisResponse(DEMO_DATA, INITIAL_DOCUMENTS)
   );
   const [analysisError, setAnalysisError] = useState("");
   const [isLoading, setIsLoading] = useState(false);
 
+  const syntheticDataset = useMemo(
+    () => (selectedScenario === COMPETITION_SCENARIO.id ? COMPETITION_SCENARIO.data : DEFAULT_SCENARIO.data),
+    [selectedScenario]
+  );
   const hasCompleteUpload = uploadedData.employees && uploadedData.roles && uploadedData.market;
   const activeDataset = useMemo(
-    () => (sourceMode === "upload" && hasCompleteUpload ? uploadedData : DEMO_DATA),
-    [sourceMode, hasCompleteUpload, uploadedData]
+    () => (sourceMode === "upload" && hasCompleteUpload ? uploadedData : syntheticDataset),
+    [sourceMode, hasCompleteUpload, syntheticDataset, uploadedData]
   );
 
   const activeDocuments = useMemo(() => {
@@ -218,7 +257,7 @@ export default function Home() {
   }, []);
 
   useEffect(() => {
-    void performAnalysis(DEMO_DATA, INITIAL_DOCUMENTS);
+    void performAnalysis(DEFAULT_SCENARIO.data, INITIAL_DOCUMENTS);
   }, [performAnalysis]);
 
   async function handleDatasetFile(kind, file) {
@@ -302,6 +341,26 @@ export default function Home() {
   const evidence = analysisResult.evidence;
   const meta = analysisResult.meta;
   const analyzeDisabled = sourceMode === "upload" && !hasCompleteUpload;
+  const scenarioMeta =
+    sourceMode === "upload"
+      ? {
+          name: "Custom upload bundle",
+          summary: "User-provided workforce CSV files with optional uploaded evidence documents.",
+        }
+      : selectedScenario === COMPETITION_SCENARIO.id
+        ? COMPETITION_SCENARIO
+        : DEFAULT_SCENARIO;
+
+  function loadScenario(scenario) {
+    const scenarioDocuments = buildScenarioDocuments(scenario);
+    setSourceMode("synthetic");
+    setSelectedScenario(scenario.id);
+    setDocumentText(scenario.analystNote || "");
+    setUploadedDocuments((scenario.documents || []).map((document) => ({ ...document })));
+    setUploadError("");
+    setAnalysisError("");
+    void performAnalysis(scenario.data, scenarioDocuments);
+  }
 
   return (
     <div className="app-shell">
@@ -333,6 +392,34 @@ export default function Home() {
               Upload CSV bundle
             </button>
           </div>
+        </div>
+
+        <div className="control-group">
+          <p className="group-label">Competition Scenario</p>
+          <div className="scenario-card">
+            <strong>{COMPETITION_SCENARIO.name}</strong>
+            <p>{COMPETITION_SCENARIO.summary}</p>
+          </div>
+          <div className="scenario-actions">
+            <button
+              className={selectedScenario === COMPETITION_SCENARIO.id ? "scenario-button is-active" : "scenario-button"}
+              onClick={() => loadScenario(COMPETITION_SCENARIO)}
+              type="button"
+            >
+              Load one-click demo
+            </button>
+            <button
+              className={selectedScenario === DEFAULT_SCENARIO.id ? "scenario-button is-active" : "scenario-button"}
+              onClick={() => loadScenario(DEFAULT_SCENARIO)}
+              type="button"
+            >
+              Reset default demo
+            </button>
+          </div>
+          <span className="helper-copy">
+            The competition scenario loads recent public OECD and EU evidence summaries directly into
+            the trace pipeline.
+          </span>
         </div>
 
         <div className="control-group">
@@ -405,21 +492,21 @@ export default function Home() {
           <a
             className="download-link"
             download="employees.csv"
-            href={`data:text/csv;charset=utf-8,${encodeURIComponent(csvFromRecords(DEMO_DATA.employees))}`}
+            href={`data:text/csv;charset=utf-8,${encodeURIComponent(csvFromRecords(syntheticDataset.employees))}`}
           >
             Download employees.csv
           </a>
           <a
             className="download-link"
             download="roles.csv"
-            href={`data:text/csv;charset=utf-8,${encodeURIComponent(csvFromRecords(DEMO_DATA.roles))}`}
+            href={`data:text/csv;charset=utf-8,${encodeURIComponent(csvFromRecords(syntheticDataset.roles))}`}
           >
             Download roles.csv
           </a>
           <a
             className="download-link"
             download="market_trends.csv"
-            href={`data:text/csv;charset=utf-8,${encodeURIComponent(csvFromRecords(DEMO_DATA.market))}`}
+            href={`data:text/csv;charset=utf-8,${encodeURIComponent(csvFromRecords(syntheticDataset.market))}`}
           >
             Download market_trends.csv
           </a>
@@ -455,8 +542,10 @@ export default function Home() {
           <div className="hero-copy">
             <p>{meta.recommendationMode}</p>
             <h2>Decision-ready workforce intelligence with evidence-backed reasoning traces.</h2>
+            <span className="hero-subcopy">{scenarioMeta.summary}</span>
           </div>
           <div className="hero-pills">
+            <span>Scenario: {scenarioMeta.name}</span>
             <span>{meta.evidenceMode}</span>
             <span>{meta.documentsProcessed} sources indexed</span>
             <span>{meta.chunksIndexed} evidence chunks scored</span>
@@ -470,7 +559,7 @@ export default function Home() {
           <MetricCard
             label="Employees in Scope"
             value={dashboard.summary.employeeCount}
-            note="Synthetic enterprise population"
+            note="Scenario workforce population"
           />
           <MetricCard
             label="Critical Skill Gaps"

@@ -1,0 +1,140 @@
+{
+  "id": "competition",
+  "name": "EU Financial Services AI Shift",
+  "summary": "One-click competition scenario seeded with public OECD, European Commission, and EURES workforce signals refreshed on 2026-04-21.",
+  "generatedAt": "2026-04-21T08:43:34.126646Z",
+  "analystNoteName": "Competition scenario brief",
+  "analystNote": "Competition setup refreshed from public sources for a European financial-services AI transformation demo.\n\nThe EURES job-vacancy dashboard currently exposes a reporting window from 1 July 2024 to 30 June 2025. The EURES services portal also states that it provides a large European database of job vacancies and CVs.\n\nEuropean Commission and OECD signals point in the same direction: AI talent demand is rising, broad AI literacy is becoming a workforce-wide requirement, and regulated sectors such as finance need stronger governance, evaluation, and monitoring capabilities in addition to pure engineering skills.\n\nFor this demo, the most decision-relevant bottlenecks remain GenAI orchestration, prompt governance, AI risk compliance, LLM evaluation, model monitoring, and the change-management capacity needed to reskill adjacent teams.",
+  "documents": [
+    {
+      "name": "European Commission AI talent briefing | 2025-10-28",
+      "sourceType": "Public report summary",
+      "mimeType": "text/plain",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/shaping-and-strengthening-european-ai-talent",
+      "publishedAt": "2025-10-28",
+      "text": "Source summary based on Shaping and strengthening European AI talent | Shaping Europe\u2019s digital future. Published on 2025-10-28. Refresh mode: live page fetch. StepUp StartUps Consortium, 2025 The rapid advancement of Artificial Intelligence (AI) is redefining the nature of work across Europe. AI talent, whether professionals directly employed in AI-related roles or those using AI skills in other fields, has more than doubled in the EU between 2016 and 2023, now representing 0.41% of the EU workforce. Despite this progress, the global competition for talent remains fierce. Developing, attracting and retaining AI talent - and increasing AI skills more widely - is a defining challenge for Europe\u2019s long-term competitiveness. Growing demand and talent supply Sectors with high exposure to AI such as ICT are already reporting faster economic growth, suggesting that AI adoption is fueling job creation rather than displacement"
+    },
+    {
+      "name": "OECD AI skills gap brief | 2025-04-24",
+      "sourceType": "Policy brief summary",
+      "mimeType": "text/plain",
+      "url": "https://www.oecd.org/en/publications/bridging-the-ai-skills-gap_66d0702e-en.html",
+      "publishedAt": "2025-04-24",
+      "text": "Source summary based on OECD AI skills gap brief. Published on 2025-04-24. Refresh mode: fallback summary. The OECD says AI is driving demand for both specialised AI professionals and workers with general AI literacy, and argues that training supply may not be sufficient to meet the growing need for AI literacy."
+    },
+    {
+      "name": "OECD UK AI hiring intensity | 2024-09-05",
+      "sourceType": "Working paper summary",
+      "mimeType": "text/plain",
+      "url": "https://www.oecd.org/en/publications/measuring-the-demand-for-ai-skills-in-the-united-kingdom_1d6474ef-en.html",
+      "publishedAt": "2024-09-05",
+      "text": "Source summary based on OECD UK AI hiring intensity. Published on 2024-09-05. Refresh mode: fallback summary. The OECD reports that AI hiring intensity rose in the United Kingdom over 2012 to 2022 and that Finance and Insurance increasingly demanded AI skills, with data scientist and related engineering roles among the most AI-intensive occupations."
+    },
+    {
+      "name": "EURES vacancy window snapshot",
+      "sourceType": "Public labour-market snapshot",
+      "mimeType": "text/plain",
+      "url": "https://eures.europa.eu/eures-services_en",
+      "publishedAt": "2026-04-21",
+      "text": "Snapshot refreshed on 2026-04-21. The public EURES job-vacancy Tableau export currently reports a data window from 1 July 2024 to 30 June 2025. The EURES services portal describes EURES as providing a large European database of job vacancies and CVs."
+    }
+  ],
+  "market": [
+    {
+      "skill": "AI risk compliance",
+      "trend_score": 99
+    },
+    {
+      "skill": "GenAI orchestration",
+      "trend_score": 99
+    },
+    {
+      "skill": "Prompt governance",
+      "trend_score": 99
+    },
+    {
+      "skill": "LLM evaluation",
+      "trend_score": 94
+    },
+    {
+      "skill": "Responsible AI",
+      "trend_score": 87
+    },
+    {
+      "skill": "Model monitoring",
+      "trend_score": 84
+    },
+    {
+      "skill": "MLOps",
+      "trend_score": 82
+    },
+    {
+      "skill": "API integration",
+      "trend_score": 79
+    },
+    {
+      "skill": "Data governance",
+      "trend_score": 76
+    },
+    {
+      "skill": "Cloud architecture",
+      "trend_score": 75
+    },
+    {
+      "skill": "Talent analytics",
+      "trend_score": 73
+    },
+    {
+      "skill": "NLP",
+      "trend_score": 71
+    },
+    {
+      "skill": "Product strategy",
+      "trend_score": 68
+    },
+    {
+      "skill": "Change management",
+      "trend_score": 67
+    },
+    {
+      "skill": "Machine learning",
+      "trend_score": 67
+    },
+    {
+      "skill": "Python",
+      "trend_score": 65
+    },
+    {
+      "skill": "Workforce planning",
+      "trend_score": 65
+    },
+    {
+      "skill": "Data visualization",
+      "trend_score": 54
+    },
+    {
+      "skill": "SQL",
+      "trend_score": 51
+    },
+    {
+      "skill": "Stakeholder management",
+      "trend_score": 51
+    },
+    {
+      "skill": "Statistics",
+      "trend_score": 47
+    },
+    {
+      "skill": "Experiment design",
+      "trend_score": 46
+    },
+    {
+      "skill": "HRIS data",
+      "trend_score": 44
+    },
+    {
+      "skill": "Vendor management",
+      "trend_score": 40
+    }
+  ]
+}
