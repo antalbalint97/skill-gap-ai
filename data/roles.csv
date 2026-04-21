@@ -1,0 +1,9 @@
+role,required_skills
+AI Product Owner,"AI risk compliance, Change management, GenAI orchestration, LLM evaluation, Product strategy, Prompt governance, Stakeholder management"
+Data Scientist,"Experiment design, LLM evaluation, Machine learning, NLP, Python, SQL, Statistics"
+ML Engineer,"API integration, Cloud architecture, Data governance, GenAI orchestration, MLOps, Model monitoring, Python"
+AI Risk Lead,"AI risk compliance, Data governance, Prompt governance, Responsible AI, Stakeholder management, Vendor management"
+PromptOps Specialist,"API integration, Change management, GenAI orchestration, LLM evaluation, Model monitoring, Prompt governance"
+Workforce Analyst,"Change management, Data visualization, HRIS data, SQL, Talent analytics, Workforce planning"
+Data Engineer,"API integration, Cloud architecture, Data governance, MLOps, Python, SQL"
+AI Governance Manager,"AI risk compliance, Change management, Data governance, Prompt governance, Responsible AI, Vendor management"

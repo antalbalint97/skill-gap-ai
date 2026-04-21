@@ -1,0 +1,386 @@
+[
+  {
+    "employee_id": "Employee_01",
+    "role": "AI Product Owner",
+    "department": "Strategy & Transformation",
+    "skills": "Change management, Data visualization, Product strategy, Stakeholder management",
+    "experience_years": "9",
+    "performance_score": "4.5"
+  },
+  {
+    "employee_id": "Employee_02",
+    "role": "AI Product Owner",
+    "department": "Strategy & Transformation",
+    "skills": "Change management, Product strategy, Stakeholder management, Talent analytics",
+    "experience_years": "7",
+    "performance_score": "4.2"
+  },
+  {
+    "employee_id": "Employee_03",
+    "role": "PromptOps Specialist",
+    "department": "AI Enablement",
+    "skills": "API integration, Change management, GenAI orchestration, Model monitoring",
+    "experience_years": "4",
+    "performance_score": "4.1"
+  },
+  {
+    "employee_id": "Employee_04",
+    "role": "Workforce Analyst",
+    "department": "People Analytics",
+    "skills": "Change management, Data visualization, Experiment design, HRIS data, Talent analytics",
+    "experience_years": "3",
+    "performance_score": "4.0"
+  },
+  {
+    "employee_id": "Employee_05",
+    "role": "ML Engineer",
+    "department": "AI Platform",
+    "skills": "API integration, Cloud architecture, Data governance, LLM evaluation, MLOps, Model monitoring, Python, Responsible AI",
+    "experience_years": "5",
+    "performance_score": "3.6"
+  },
+  {
+    "employee_id": "Employee_06",
+    "role": "Data Scientist",
+    "department": "Advanced Analytics",
+    "skills": "Experiment design, GenAI orchestration, Machine learning, Prompt governance, Python, SQL, Statistics",
+    "experience_years": "4",
+    "performance_score": "3.7"
+  },
+  {
+    "employee_id": "Employee_07",
+    "role": "AI Product Owner",
+    "department": "Strategy & Transformation",
+    "skills": "AI risk compliance, Change management, Data visualization, Product strategy, Stakeholder management",
+    "experience_years": "4",
+    "performance_score": "4.7"
+  },
+  {
+    "employee_id": "Employee_08",
+    "role": "PromptOps Specialist",
+    "department": "AI Enablement",
+    "skills": "API integration, Change management, Model monitoring, Stakeholder management",
+    "experience_years": "8",
+    "performance_score": "4.3"
+  },
+  {
+    "employee_id": "Employee_09",
+    "role": "AI Product Owner",
+    "department": "Strategy & Transformation",
+    "skills": "Change management, Product strategy, Stakeholder management, Talent analytics",
+    "experience_years": "8",
+    "performance_score": "4.3"
+  },
+  {
+    "employee_id": "Employee_10",
+    "role": "Workforce Analyst",
+    "department": "People Analytics",
+    "skills": "Data visualization, Experiment design, HRIS data, Python, SQL, Talent analytics, Workforce planning",
+    "experience_years": "2",
+    "performance_score": "4.7"
+  },
+  {
+    "employee_id": "Employee_11",
+    "role": "Workforce Analyst",
+    "department": "People Analytics",
+    "skills": "Change management, SQL, Talent analytics, Workforce planning",
+    "experience_years": "7",
+    "performance_score": "4.8"
+  },
+  {
+    "employee_id": "Employee_12",
+    "role": "Workforce Analyst",
+    "department": "People Analytics",
+    "skills": "Data visualization, Experiment design, Python, SQL, Statistics, Talent analytics, Workforce planning",
+    "experience_years": "4",
+    "performance_score": "4.6"
+  },
+  {
+    "employee_id": "Employee_13",
+    "role": "PromptOps Specialist",
+    "department": "AI Enablement",
+    "skills": "API integration, Change management, GenAI orchestration, Model monitoring",
+    "experience_years": "4",
+    "performance_score": "3.4"
+  },
+  {
+    "employee_id": "Employee_14",
+    "role": "Data Engineer",
+    "department": "Data Platform",
+    "skills": "API integration, Cloud architecture, Data governance, MLOps, Python, SQL",
+    "experience_years": "10",
+    "performance_score": "3.5"
+  },
+  {
+    "employee_id": "Employee_15",
+    "role": "AI Governance Manager",
+    "department": "Risk & Compliance",
+    "skills": "Change management, Data governance, Responsible AI, Vendor management",
+    "experience_years": "4",
+    "performance_score": "3.9"
+  },
+  {
+    "employee_id": "Employee_16",
+    "role": "PromptOps Specialist",
+    "department": "AI Enablement",
+    "skills": "Change management, LLM evaluation, Model monitoring, Product strategy, Stakeholder management",
+    "experience_years": "8",
+    "performance_score": "4.0"
+  },
+  {
+    "employee_id": "Employee_17",
+    "role": "Data Engineer",
+    "department": "Data Platform",
+    "skills": "API integration, Cloud architecture, Data governance, MLOps, Python, SQL",
+    "experience_years": "3",
+    "performance_score": "3.9"
+  },
+  {
+    "employee_id": "Employee_18",
+    "role": "AI Risk Lead",
+    "department": "Risk & Compliance",
+    "skills": "Data governance, Responsible AI, Stakeholder management, Vendor management",
+    "experience_years": "8",
+    "performance_score": "4.4"
+  },
+  {
+    "employee_id": "Employee_19",
+    "role": "Data Scientist",
+    "department": "Advanced Analytics",
+    "skills": "Experiment design, Machine learning, Python, Statistics",
+    "experience_years": "4",
+    "performance_score": "4.1"
+  },
+  {
+    "employee_id": "Employee_20",
+    "role": "PromptOps Specialist",
+    "department": "AI Enablement",
+    "skills": "API integration, Change management, Product strategy, Stakeholder management",
+    "experience_years": "2",
+    "performance_score": "4.0"
+  },
+  {
+    "employee_id": "Employee_21",
+    "role": "PromptOps Specialist",
+    "department": "AI Enablement",
+    "skills": "API integration, Change management, GenAI orchestration, Model monitoring",
+    "experience_years": "11",
+    "performance_score": "3.8"
+  },
+  {
+    "employee_id": "Employee_22",
+    "role": "AI Risk Lead",
+    "department": "Risk & Compliance",
+    "skills": "Change management, Data governance, LLM evaluation, Responsible AI, Stakeholder management",
+    "experience_years": "11",
+    "performance_score": "4.3"
+  },
+  {
+    "employee_id": "Employee_23",
+    "role": "Workforce Analyst",
+    "department": "People Analytics",
+    "skills": "Change management, Data visualization, Experiment design, HRIS data, SQL, Workforce planning",
+    "experience_years": "2",
+    "performance_score": "4.0"
+  },
+  {
+    "employee_id": "Employee_24",
+    "role": "Workforce Analyst",
+    "department": "People Analytics",
+    "skills": "Data visualization, Experiment design, SQL, Statistics, Talent analytics, Workforce planning",
+    "experience_years": "4",
+    "performance_score": "3.3"
+  },
+  {
+    "employee_id": "Employee_25",
+    "role": "AI Product Owner",
+    "department": "Strategy & Transformation",
+    "skills": "AI risk compliance, Change management, Product strategy, Stakeholder management",
+    "experience_years": "3",
+    "performance_score": "3.3"
+  },
+  {
+    "employee_id": "Employee_26",
+    "role": "ML Engineer",
+    "department": "AI Platform",
+    "skills": "API integration, Cloud architecture, Data governance, LLM evaluation, MLOps, Model monitoring, Responsible AI",
+    "experience_years": "4",
+    "performance_score": "4.8"
+  },
+  {
+    "employee_id": "Employee_27",
+    "role": "Data Engineer",
+    "department": "Data Platform",
+    "skills": "API integration, Cloud architecture, Data governance, Data visualization, MLOps, Model monitoring, Python, SQL",
+    "experience_years": "8",
+    "performance_score": "4.6"
+  },
+  {
+    "employee_id": "Employee_28",
+    "role": "Data Scientist",
+    "department": "Advanced Analytics",
+    "skills": "Experiment design, GenAI orchestration, LLM evaluation, Machine learning, NLP, Prompt governance, Python, Statistics",
+    "experience_years": "2",
+    "performance_score": "4.6"
+  },
+  {
+    "employee_id": "Employee_29",
+    "role": "Data Engineer",
+    "department": "Data Platform",
+    "skills": "Data governance, MLOps, Model monitoring, Python, SQL",
+    "experience_years": "8",
+    "performance_score": "3.6"
+  },
+  {
+    "employee_id": "Employee_30",
+    "role": "Workforce Analyst",
+    "department": "People Analytics",
+    "skills": "Change management, Data visualization, HRIS data, SQL, Statistics, Talent analytics",
+    "experience_years": "10",
+    "performance_score": "4.4"
+  },
+  {
+    "employee_id": "Employee_31",
+    "role": "Data Engineer",
+    "department": "Data Platform",
+    "skills": "API integration, Cloud architecture, Data governance, MLOps, Python, SQL",
+    "experience_years": "10",
+    "performance_score": "3.4"
+  },
+  {
+    "employee_id": "Employee_32",
+    "role": "Workforce Analyst",
+    "department": "People Analytics",
+    "skills": "Change management, Data visualization, Experiment design, HRIS data, SQL, Talent analytics, Workforce planning",
+    "experience_years": "3",
+    "performance_score": "3.4"
+  },
+  {
+    "employee_id": "Employee_33",
+    "role": "Data Engineer",
+    "department": "Data Platform",
+    "skills": "API integration, Data governance, MLOps, Python, SQL",
+    "experience_years": "10",
+    "performance_score": "3.9"
+  },
+  {
+    "employee_id": "Employee_34",
+    "role": "Workforce Analyst",
+    "department": "People Analytics",
+    "skills": "Change management, Data visualization, Experiment design, Python, SQL, Talent analytics, Workforce planning",
+    "experience_years": "11",
+    "performance_score": "3.6"
+  },
+  {
+    "employee_id": "Employee_35",
+    "role": "ML Engineer",
+    "department": "AI Platform",
+    "skills": "API integration, Cloud architecture, Data governance, LLM evaluation, Model monitoring, Python, Responsible AI",
+    "experience_years": "6",
+    "performance_score": "4.8"
+  },
+  {
+    "employee_id": "Employee_36",
+    "role": "Data Engineer",
+    "department": "Data Platform",
+    "skills": "API integration, Cloud architecture, Data governance, Data visualization, MLOps, Model monitoring, Python, SQL",
+    "experience_years": "4",
+    "performance_score": "3.9"
+  },
+  {
+    "employee_id": "Employee_37",
+    "role": "AI Risk Lead",
+    "department": "Risk & Compliance",
+    "skills": "AI risk compliance, Data governance, LLM evaluation, Stakeholder management, Vendor management",
+    "experience_years": "5",
+    "performance_score": "4.6"
+  },
+  {
+    "employee_id": "Employee_38",
+    "role": "Data Engineer",
+    "department": "Data Platform",
+    "skills": "Cloud architecture, Data governance, Data visualization, MLOps, Model monitoring, Python, SQL",
+    "experience_years": "11",
+    "performance_score": "3.5"
+  },
+  {
+    "employee_id": "Employee_39",
+    "role": "Data Scientist",
+    "department": "Advanced Analytics",
+    "skills": "Experiment design, GenAI orchestration, LLM evaluation, Machine learning, NLP, SQL, Statistics",
+    "experience_years": "9",
+    "performance_score": "4.5"
+  },
+  {
+    "employee_id": "Employee_40",
+    "role": "AI Product Owner",
+    "department": "Strategy & Transformation",
+    "skills": "Change management, GenAI orchestration, Product strategy, Stakeholder management",
+    "experience_years": "11",
+    "performance_score": "4.7"
+  },
+  {
+    "employee_id": "Employee_41",
+    "role": "Data Engineer",
+    "department": "Data Platform",
+    "skills": "API integration, Cloud architecture, Data governance, Data visualization, MLOps, Model monitoring, Python, SQL",
+    "experience_years": "3",
+    "performance_score": "4.7"
+  },
+  {
+    "employee_id": "Employee_42",
+    "role": "PromptOps Specialist",
+    "department": "AI Enablement",
+    "skills": "API integration, Change management, LLM evaluation, Model monitoring",
+    "experience_years": "9",
+    "performance_score": "4.2"
+  },
+  {
+    "employee_id": "Employee_43",
+    "role": "AI Risk Lead",
+    "department": "Risk & Compliance",
+    "skills": "Data governance, LLM evaluation, Prompt governance, Vendor management",
+    "experience_years": "11",
+    "performance_score": "3.7"
+  },
+  {
+    "employee_id": "Employee_44",
+    "role": "AI Governance Manager",
+    "department": "Risk & Compliance",
+    "skills": "Change management, Data governance, Product strategy, Responsible AI, Vendor management",
+    "experience_years": "11",
+    "performance_score": "3.7"
+  },
+  {
+    "employee_id": "Employee_45",
+    "role": "AI Risk Lead",
+    "department": "Risk & Compliance",
+    "skills": "AI risk compliance, Data governance, Responsible AI, Vendor management",
+    "experience_years": "9",
+    "performance_score": "4.5"
+  },
+  {
+    "employee_id": "Employee_46",
+    "role": "ML Engineer",
+    "department": "AI Platform",
+    "skills": "Cloud architecture, LLM evaluation, MLOps, Model monitoring, Python, Responsible AI",
+    "experience_years": "4",
+    "performance_score": "3.4"
+  },
+  {
+    "employee_id": "Employee_47",
+    "role": "AI Governance Manager",
+    "department": "Risk & Compliance",
+    "skills": "Change management, Data governance, Product strategy, Responsible AI, Vendor management",
+    "experience_years": "11",
+    "performance_score": "4.0"
+  },
+  {
+    "employee_id": "Employee_48",
+    "role": "AI Risk Lead",
+    "department": "Risk & Compliance",
+    "skills": "Data governance, LLM evaluation, Stakeholder management, Vendor management",
+    "experience_years": "3",
+    "performance_score": "4.5"
+  }
+]

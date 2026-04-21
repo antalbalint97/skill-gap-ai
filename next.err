@@ -1,0 +1,31 @@
+⨯ TypeError: Object.defineProperty called on non-object
+    at Function.defineProperty (<anonymous>)
+    at eval (webpack-internal:///(rsc)/./app/api/analyze/route.js:7:67)
+    at <unknown> (rsc)/./app/api/analyze/route.js (C:\Users\Balint\Documents\Pet_projects\skill_gap_ai\.next\dev\server\app\api\analyze\route.js:22:1)
+    at __webpack_exec__ (C:\Users\Balint\Documents\Pet_projects\skill_gap_ai\.next\dev\server\app\api\analyze\route.js:162:39)
+    at <unknown> (C:\Users\Balint\Documents\Pet_projects\skill_gap_ai\.next\dev\server\app\api\analyze\route.js:163:136)
+    at <unknown> (C:\Users\Balint\Documents\Pet_projects\skill_gap_ai\.next\dev\server\app\api\analyze\route.js:163:47)
+    at Object.<anonymous> (C:\Users\Balint\Documents\Pet_projects\skill_gap_ai\.next\dev\server\app\api\analyze\route.js:166:3) {
+  page: '/api/analyze'
+}
+⨯ TypeError: Object.defineProperty called on non-object
+    at Function.defineProperty (<anonymous>)
+    at eval (webpack-internal:///(rsc)/./app/api/analyze/route.js:7:67)
+    at <unknown> (rsc)/./app/api/analyze/route.js (C:\Users\Balint\Documents\Pet_projects\skill_gap_ai\.next\dev\server\app\api\analyze\route.js:22:1)
+    at __webpack_exec__ (C:\Users\Balint\Documents\Pet_projects\skill_gap_ai\.next\dev\server\app\api\analyze\route.js:162:39)
+    at <unknown> (C:\Users\Balint\Documents\Pet_projects\skill_gap_ai\.next\dev\server\app\api\analyze\route.js:163:136)
+    at <unknown> (C:\Users\Balint\Documents\Pet_projects\skill_gap_ai\.next\dev\server\app\api\analyze\route.js:163:47)
+    at Object.<anonymous> (C:\Users\Balint\Documents\Pet_projects\skill_gap_ai\.next\dev\server\app\api\analyze\route.js:166:3) {
+  page: '/api/analyze'
+}
+⨯ TypeError: Object.defineProperty called on non-object
+    at Function.defineProperty (<anonymous>)
+    at eval (webpack-internal:///(rsc)/./app/api/analyze/route.js:7:67)
+    at <unknown> (rsc)/./app/api/analyze/route.js (C:\Users\Balint\Documents\Pet_projects\skill_gap_ai\.next\dev\server\app\api\analyze\route.js:22:1)
+    at __webpack_exec__ (C:\Users\Balint\Documents\Pet_projects\skill_gap_ai\.next\dev\server\app\api\analyze\route.js:162:39)
+    at <unknown> (C:\Users\Balint\Documents\Pet_projects\skill_gap_ai\.next\dev\server\app\api\analyze\route.js:163:136)
+    at <unknown> (C:\Users\Balint\Documents\Pet_projects\skill_gap_ai\.next\dev\server\app\api\analyze\route.js:163:47)
+    at Object.<anonymous> (C:\Users\Balint\Documents\Pet_projects\skill_gap_ai\.next\dev\server\app\api\analyze\route.js:166:3) {
+  page: '/api/analyze'
+}
+^C^C

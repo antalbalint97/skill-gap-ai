@@ -1,0 +1,49 @@
+employee_id,role,department,skills,experience_years,performance_score
+Employee_01,AI Product Owner,Strategy & Transformation,"Change management, Data visualization, Product strategy, Stakeholder management",9,4.5
+Employee_02,AI Product Owner,Strategy & Transformation,"Change management, Product strategy, Stakeholder management, Talent analytics",7,4.2
+Employee_03,PromptOps Specialist,AI Enablement,"API integration, Change management, GenAI orchestration, Model monitoring",4,4.1
+Employee_04,Workforce Analyst,People Analytics,"Change management, Data visualization, Experiment design, HRIS data, Talent analytics",3,4.0
+Employee_05,ML Engineer,AI Platform,"API integration, Cloud architecture, Data governance, LLM evaluation, MLOps, Model monitoring, Python, Responsible AI",5,3.6
+Employee_06,Data Scientist,Advanced Analytics,"Experiment design, GenAI orchestration, Machine learning, Prompt governance, Python, SQL, Statistics",4,3.7
+Employee_07,AI Product Owner,Strategy & Transformation,"AI risk compliance, Change management, Data visualization, Product strategy, Stakeholder management",4,4.7
+Employee_08,PromptOps Specialist,AI Enablement,"API integration, Change management, Model monitoring, Stakeholder management",8,4.3
+Employee_09,AI Product Owner,Strategy & Transformation,"Change management, Product strategy, Stakeholder management, Talent analytics",8,4.3
+Employee_10,Workforce Analyst,People Analytics,"Data visualization, Experiment design, HRIS data, Python, SQL, Talent analytics, Workforce planning",2,4.7
+Employee_11,Workforce Analyst,People Analytics,"Change management, SQL, Talent analytics, Workforce planning",7,4.8
+Employee_12,Workforce Analyst,People Analytics,"Data visualization, Experiment design, Python, SQL, Statistics, Talent analytics, Workforce planning",4,4.6
+Employee_13,PromptOps Specialist,AI Enablement,"API integration, Change management, GenAI orchestration, Model monitoring",4,3.4
+Employee_14,Data Engineer,Data Platform,"API integration, Cloud architecture, Data governance, MLOps, Python, SQL",10,3.5
+Employee_15,AI Governance Manager,Risk & Compliance,"Change management, Data governance, Responsible AI, Vendor management",4,3.9
+Employee_16,PromptOps Specialist,AI Enablement,"Change management, LLM evaluation, Model monitoring, Product strategy, Stakeholder management",8,4.0
+Employee_17,Data Engineer,Data Platform,"API integration, Cloud architecture, Data governance, MLOps, Python, SQL",3,3.9
+Employee_18,AI Risk Lead,Risk & Compliance,"Data governance, Responsible AI, Stakeholder management, Vendor management",8,4.4
+Employee_19,Data Scientist,Advanced Analytics,"Experiment design, Machine learning, Python, Statistics",4,4.1
+Employee_20,PromptOps Specialist,AI Enablement,"API integration, Change management, Product strategy, Stakeholder management",2,4.0
+Employee_21,PromptOps Specialist,AI Enablement,"API integration, Change management, GenAI orchestration, Model monitoring",11,3.8
+Employee_22,AI Risk Lead,Risk & Compliance,"Change management, Data governance, LLM evaluation, Responsible AI, Stakeholder management",11,4.3
+Employee_23,Workforce Analyst,People Analytics,"Change management, Data visualization, Experiment design, HRIS data, SQL, Workforce planning",2,4.0
+Employee_24,Workforce Analyst,People Analytics,"Data visualization, Experiment design, SQL, Statistics, Talent analytics, Workforce planning",4,3.3
+Employee_25,AI Product Owner,Strategy & Transformation,"AI risk compliance, Change management, Product strategy, Stakeholder management",3,3.3
+Employee_26,ML Engineer,AI Platform,"API integration, Cloud architecture, Data governance, LLM evaluation, MLOps, Model monitoring, Responsible AI",4,4.8
+Employee_27,Data Engineer,Data Platform,"API integration, Cloud architecture, Data governance, Data visualization, MLOps, Model monitoring, Python, SQL",8,4.6
+Employee_28,Data Scientist,Advanced Analytics,"Experiment design, GenAI orchestration, LLM evaluation, Machine learning, NLP, Prompt governance, Python, Statistics",2,4.6
+Employee_29,Data Engineer,Data Platform,"Data governance, MLOps, Model monitoring, Python, SQL",8,3.6
+Employee_30,Workforce Analyst,People Analytics,"Change management, Data visualization, HRIS data, SQL, Statistics, Talent analytics",10,4.4
+Employee_31,Data Engineer,Data Platform,"API integration, Cloud architecture, Data governance, MLOps, Python, SQL",10,3.4
+Employee_32,Workforce Analyst,People Analytics,"Change management, Data visualization, Experiment design, HRIS data, SQL, Talent analytics, Workforce planning",3,3.4
+Employee_33,Data Engineer,Data Platform,"API integration, Data governance, MLOps, Python, SQL",10,3.9
+Employee_34,Workforce Analyst,People Analytics,"Change management, Data visualization, Experiment design, Python, SQL, Talent analytics, Workforce planning",11,3.6
+Employee_35,ML Engineer,AI Platform,"API integration, Cloud architecture, Data governance, LLM evaluation, Model monitoring, Python, Responsible AI",6,4.8
+Employee_36,Data Engineer,Data Platform,"API integration, Cloud architecture, Data governance, Data visualization, MLOps, Model monitoring, Python, SQL",4,3.9
+Employee_37,AI Risk Lead,Risk & Compliance,"AI risk compliance, Data governance, LLM evaluation, Stakeholder management, Vendor management",5,4.6
+Employee_38,Data Engineer,Data Platform,"Cloud architecture, Data governance, Data visualization, MLOps, Model monitoring, Python, SQL",11,3.5
+Employee_39,Data Scientist,Advanced Analytics,"Experiment design, GenAI orchestration, LLM evaluation, Machine learning, NLP, SQL, Statistics",9,4.5
+Employee_40,AI Product Owner,Strategy & Transformation,"Change management, GenAI orchestration, Product strategy, Stakeholder management",11,4.7
+Employee_41,Data Engineer,Data Platform,"API integration, Cloud architecture, Data governance, Data visualization, MLOps, Model monitoring, Python, SQL",3,4.7
+Employee_42,PromptOps Specialist,AI Enablement,"API integration, Change management, LLM evaluation, Model monitoring",9,4.2
+Employee_43,AI Risk Lead,Risk & Compliance,"Data governance, LLM evaluation, Prompt governance, Vendor management",11,3.7
+Employee_44,AI Governance Manager,Risk & Compliance,"Change management, Data governance, Product strategy, Responsible AI, Vendor management",11,3.7
+Employee_45,AI Risk Lead,Risk & Compliance,"AI risk compliance, Data governance, Responsible AI, Vendor management",9,4.5
+Employee_46,ML Engineer,AI Platform,"Cloud architecture, LLM evaluation, MLOps, Model monitoring, Python, Responsible AI",4,3.4
+Employee_47,AI Governance Manager,Risk & Compliance,"Change management, Data governance, Product strategy, Responsible AI, Vendor management",11,4.0
+Employee_48,AI Risk Lead,Risk & Compliance,"Data governance, LLM evaluation, Stakeholder management, Vendor management",3,4.5

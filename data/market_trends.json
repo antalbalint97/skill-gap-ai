@@ -1,0 +1,98 @@
+[
+  {
+    "skill": "GenAI orchestration",
+    "trend_score": "99"
+  },
+  {
+    "skill": "Prompt governance",
+    "trend_score": "93"
+  },
+  {
+    "skill": "AI risk compliance",
+    "trend_score": "91"
+  },
+  {
+    "skill": "LLM evaluation",
+    "trend_score": "88"
+  },
+  {
+    "skill": "Responsible AI",
+    "trend_score": "84"
+  },
+  {
+    "skill": "Model monitoring",
+    "trend_score": "81"
+  },
+  {
+    "skill": "MLOps",
+    "trend_score": "79"
+  },
+  {
+    "skill": "API integration",
+    "trend_score": "77"
+  },
+  {
+    "skill": "Talent analytics",
+    "trend_score": "73"
+  },
+  {
+    "skill": "Cloud architecture",
+    "trend_score": "72"
+  },
+  {
+    "skill": "Data governance",
+    "trend_score": "71"
+  },
+  {
+    "skill": "NLP",
+    "trend_score": "69"
+  },
+  {
+    "skill": "Product strategy",
+    "trend_score": "67"
+  },
+  {
+    "skill": "Workforce planning",
+    "trend_score": "65"
+  },
+  {
+    "skill": "Machine learning",
+    "trend_score": "64"
+  },
+  {
+    "skill": "Python",
+    "trend_score": "62"
+  },
+  {
+    "skill": "Change management",
+    "trend_score": "58"
+  },
+  {
+    "skill": "Data visualization",
+    "trend_score": "54"
+  },
+  {
+    "skill": "SQL",
+    "trend_score": "51"
+  },
+  {
+    "skill": "Stakeholder management",
+    "trend_score": "48"
+  },
+  {
+    "skill": "Statistics",
+    "trend_score": "46"
+  },
+  {
+    "skill": "Experiment design",
+    "trend_score": "45"
+  },
+  {
+    "skill": "HRIS data",
+    "trend_score": "44"
+  },
+  {
+    "skill": "Vendor management",
+    "trend_score": "39"
+  }
+]
